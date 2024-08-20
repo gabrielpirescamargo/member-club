@@ -1,0 +1,50 @@
+
+.history {
+  grid-column: span 3;
+  grid-row: span 5;
+}
+
+.history-content {
+  font-size: 18px;
+  padding: 24px;
+}
+
+
+.date-and-time{
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.check-background{
+  background-color: rgba(69, 180, 66, 0.12);
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.date{
+  color: #4A4448;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.time{
+  color: #756C71;
+
+  font-size: 12px;
+}
+
+.history-title{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
